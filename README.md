@@ -57,7 +57,7 @@ This phase involves implementing a nested cross-validation pipeline to train mac
    - This process is repeated for each of the 10 dependent variables across all machine learning algorithms.  
 
 ## **Repository Structure**  
-
+```
 MSc_Thesis_MS_Disease_Progression/
 │
 ├── Data_Preprocessing_Dimensionality_Reduction.ipynb  # Preprocessing scripts for Dimensionality Reduction
@@ -70,19 +70,23 @@ MSc_Thesis_MS_Disease_Progression/
 ├── NestedCV_Pipeline_LSTM.ipynb                      # Nested CV pipeline for LSTM network
 │
 └── README.md                                         # Project documentation
+```
 
 ## **Getting Started**  
 To use the code in this repository:  
 1. Clone the repository:  
+   ```bash
    git clone https://github.com/your-username/MSc_Thesis_MS_Disease_Progression.git
    cd MSc_Thesis_MS_Disease_Progression
-
+   ```
    
 3. Install required dependencies:  
    - Use a package manager like `pip` to install dependencies.  
    - Example:  
-      pip install -r requirements.txt
-
+     ```bash
+     pip install -r requirements.txt
+     ```
+     
 4. Run the desired notebooks in Jupyter Notebook or JupyterLab.  
 
 ## **Data**  
