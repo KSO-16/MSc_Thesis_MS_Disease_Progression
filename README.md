@@ -74,7 +74,7 @@ MSc_Thesis_MS_Disease_Progression/
 To use the code in this repository:  
 1. Clone the repository:  
    bash
-   git clone https://github.com/your-username/MSc_Thesis_MS_Disease_Progression.git
+   git clone 'https://github.com/your-username/MSc_Thesis_MS_Disease_Progression.git'
    cd MSc_Thesis_MS_Disease_Progression
    
 3. Install required dependencies:  
