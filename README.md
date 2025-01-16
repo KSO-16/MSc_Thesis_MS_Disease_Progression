@@ -66,7 +66,7 @@ MSc_Thesis_MS_Disease_Progression/
 ├── UMAP_Dimensionality_Reduction.ipynb               # UMAP tuning and evaluation
 ├── TPHATE_Dimensionality_Reduction.ipynb             # TPHATE tuning and evaluation
 │
-├── NestedCV_Pipeline_MLA.ipynb                       # Nested CV pipeline for ML algorithms
+├── NestedCV_Pipeline_MLA.ipynb                       # Nested CV pipeline for ML algorithms (LogR, LR, SVM, RF, & XGB)
 ├── NestedCV_Pipeline_LSTM.ipynb                      # Nested CV pipeline for LSTM network
 │
 └── README.md                                         # Project documentation
