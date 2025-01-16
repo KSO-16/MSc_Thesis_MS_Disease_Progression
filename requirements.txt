@@ -1,0 +1,15 @@
+# General dependencies for Python 3.9
+numpy
+pandas
+scikit-learn>=0.24.0
+imblearn
+matplotlib
+umap-learn
+tensorflow
+keras
+keras-tuner
+xgboost
+
+# Version-specific dependencies for TPHATE notebook
+scikit-learn==0.24.0
+tphate==0.1
