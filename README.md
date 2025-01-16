@@ -26,8 +26,8 @@ In this phase, dimensionality reduction techniques were explored using cleaned a
    - **t-SNE, UMAP, and TPHATE**:  
      - Use the respective notebooks (`tSNE_Dimensionality_Reduction.ipynb`, `UMAP_Dimensionality_Reduction.ipynb`, and `TPHATE_Dimensionality_Reduction.ipynb`) to:  
        - Tune hyperparameters for t-SNE, UMAP, and TPHATE.  
-       - Evaluate and record results similar to the PCA workflow.  
-
+       - Evaluate and record results similar to the PCA workflow.
+       - 
 ### **Part 2: Machine Learning Exploration**  
 This phase involves implementing a nested cross-validation pipeline to train machine learning models for predicting disease progression.  
 
@@ -57,8 +57,6 @@ This phase involves implementing a nested cross-validation pipeline to train mac
    - This process is repeated for each of the 10 dependent variables across all machine learning algorithms.  
 
 ## **Repository Structure**  
-
-```
 MSc_Thesis_MS_Disease_Progression/
 │
 ├── Data_Preprocessing_Dimensionality_Reduction.ipynb  # Preprocessing scripts for Dimensionality Reduction
@@ -71,29 +69,24 @@ MSc_Thesis_MS_Disease_Progression/
 ├── NestedCV_Pipeline_LSTM.ipynb                      # Nested CV pipeline for LSTM network
 │
 └── README.md                                         # Project documentation
-```
 
 ## **Getting Started**  
-
 To use the code in this repository:  
 1. Clone the repository:  
-   ```bash
+   bash
    git clone https://github.com/your-username/MSc_Thesis_MS_Disease_Progression.git
    cd MSc_Thesis_MS_Disease_Progression
-   ```
-2. Install required dependencies:  
+   
+3. Install required dependencies:  
    - Use a package manager like `pip` to install dependencies.  
    - Example:  
-     ```bash
+     bash
      pip install -r requirements.txt
-     ```
-3. Run the desired notebooks in Jupyter Notebook or JupyterLab.  
-
+     
+4. Run the desired notebooks in Jupyter Notebook or JupyterLab.  
 
 ## **Data**  
-
 The dataset includes multimodal MRI (diffusion, structural, and functional), clinical, and demographic data from the MS cohort. The data preparation steps are detailed in the preprocessing notebooks.  
-
 
 ## **Acknowledgments**  
 I sincerely thank my supervisors, Ismail Koubiyr and Mar Barrantes Cepas, and the Amsterdam UMC Anatomy & Neurosciences Department for their invaluable support and resources.
